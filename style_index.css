@@ -1,0 +1,32 @@
+.img1{
+    position: absolute;
+    left: 10%;
+    height: 100px;
+    width: 100px;
+    transform: rotate(90deg);
+    top: 20%;
+    left: 10%;
+}
+
+.center-banner{
+    position: absolute;
+    top:0%;
+    text-align: center;
+    background-color: black;
+    color:white;
+    height: 200px;
+    width: 1000px;
+}
+
+.header{
+    color: brown;
+}
+
+.para{
+    color:black;
+}
+
+.main-details{
+    float: left;
+    background-color:peachpuff; 
+}
