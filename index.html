@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Paulina Paul Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="style_index.css">
-
-    <div class="center-banner">
-
-        <h1 class="header">Paulina Paul Bio</h1>
-
-    </div>
-
-    <div class="main-details">
-        
-        <img class="img1" src="/Users/paulinapaul/Desktop/Documents/Personal/Photos/London_2018/IMG_9051.jpg">
-        <p class="para">
-            Some text here.
-        </p>
-    </div>
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Your Name</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      </section>
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
 </html>
